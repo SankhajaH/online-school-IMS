@@ -1,0 +1,1 @@
+This is a online school information management system, created for the 2nd year 1st semester OOP module assignment, by Team Attimbas- Menake "Dassa" Dasunpriya, Layan "Leo" Jayasinghe, Navindu "Naviya" Amarakoon and Sankhaja "Sankhe" Hapukotuwa
