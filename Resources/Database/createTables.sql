@@ -20,7 +20,7 @@ CREATE TABLE `online_school_ims`.`teacher` (
   `age` INT NULL,
   `address` VARCHAR(200) NULL,
   `contact` VARCHAR(10) NULL,
-  `SBID` VARCHAR(45) NULL,
+  `SBID` INT NULL,
   `profilePic` VARCHAR(500) NULL,
   PRIMARY KEY (`TID`),
   CONSTRAINT `fk_sbid`
@@ -85,3 +85,5 @@ CREATE TABLE `online_school_ims`.`inquiry` (
   CONSTRAINT `fk_sid_i`
     FOREIGN KEY (`SID`)
     REFERENCES `online_school_ims`.`student` (`SID`));
+    
+    
