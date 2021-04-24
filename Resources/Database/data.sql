@@ -86,3 +86,5 @@ VALUES
 ( 'Mendis', 'menda001', 'teacher'),
 ( 'KapilaF', 'fonseka1971', 'admin');
 
+
+

@@ -9,7 +9,6 @@ public class Notices {
 	Boolean academic;
 	
 	public Notices(String nID, String date, String title, String description, Boolean student, Boolean academic) {
-		super();
 		NID = nID;
 		this.date = date;
 		this.title = title;

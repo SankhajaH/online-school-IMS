@@ -6,7 +6,6 @@ public class Credentials {
 	String userState;
 	
 	public Credentials(String userName, String password, String userState) {
-		super();
 		this.userName = userName;
 		this.password = password;
 		this.userState = userState;
