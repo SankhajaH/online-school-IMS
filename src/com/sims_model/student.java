@@ -22,6 +22,7 @@ public class student {
 		this.profilePic = profilePic;
 	}
 
+	
 	public int getSid() {
 		return sid;
 	}
