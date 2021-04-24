@@ -1,11 +1,15 @@
 package com.sims_model;
 
-public class Credentials {
+public class Auth {
 	String userName;
 	String password;
 	String userState;
 	
+<<<<<<< HEAD:src/com/sims_model/Credentials.java
 	public Credentials(String userName, String password, String userState) {
+=======
+	public Auth(String userName, String password, String userState) {
+>>>>>>> 58f6cfcb2a7c96f53b1a024d0d68a3e06f9f98c5:src/com/sims_model/Auth.java
 		this.userName = userName;
 		this.password = password;
 		this.userState = userState;
@@ -22,5 +26,5 @@ public class Credentials {
 	public String getUserState() {
 		return userState;
 	}
-	
+
 }
