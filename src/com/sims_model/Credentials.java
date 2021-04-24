@@ -22,6 +22,4 @@ public class Credentials {
 
 	public String getUserState() {
 		return userState;
-	}
-
 }
