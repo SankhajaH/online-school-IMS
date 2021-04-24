@@ -1,30 +1,25 @@
 package com.sims_model;
 
-public class student {
-	private int sid;
+public class admin {
+	private int aid;
 	private String name;
 	private int age;
 	private String address;
 	private String contact;
-	private int grade;
-	private String className;
 	private String profilePic;
 	
-	public student(int sID, String name, int age, String address, String contact, int grade, String className,
-			String profilePic) {
-		this.sid = sID;
+	public admin(int aid, String name, int age, String address, String contact, String profilePic) {
+		super();
+		this.aid = aid;
 		this.name = name;
 		this.age = age;
 		this.address = address;
 		this.contact = contact;
-		this.grade = grade;
-		this.className = className;
 		this.profilePic = profilePic;
 	}
 
-	
-	public int getSid() {
-		return sid;
+	public int getAid() {
+		return aid;
 	}
 
 	public String getName() {
@@ -39,19 +34,15 @@ public class student {
 		return address;
 	}
 
+
 	public String getContact() {
 		return contact;
-	}
-
-	public int getGrade() {
-		return grade;
-	}
-
-	public String getClassName() {
-		return className;
 	}
 
 	public String getProfilePic() {
 		return profilePic;
 	}
+
+	
+	
 }
