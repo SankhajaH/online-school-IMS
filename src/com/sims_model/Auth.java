@@ -1,12 +1,11 @@
 package com.sims_model;
 
-public class Credentials {
+public class Auth {
 	String userName;
 	String password;
 	String userState;
 	
-	public Credentials(String userName, String password, String userState) {
-		super();
+	public Auth(String userName, String password, String userState) {
 		this.userName = userName;
 		this.password = password;
 		this.userState = userState;
@@ -23,5 +22,5 @@ public class Credentials {
 	public String getUserState() {
 		return userState;
 	}
-	
+
 }
