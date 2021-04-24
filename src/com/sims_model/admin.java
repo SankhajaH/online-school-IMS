@@ -9,7 +9,6 @@ public class admin {
 	private String profilePic;
 	
 	public admin(int aid, String name, int age, String address, String contact, String profilePic) {
-		super();
 		this.aid = aid;
 		this.name = name;
 		this.age = age;

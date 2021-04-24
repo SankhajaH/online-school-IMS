@@ -9,7 +9,7 @@ public class student {
 	private int grade;
 	private String className;
 	private String profilePic;
-	
+
 	public student(int sID, String name, int age, String address, String contact, int grade, String className,
 			String profilePic) {
 		this.sid = sID;
@@ -22,7 +22,6 @@ public class student {
 		this.profilePic = profilePic;
 	}
 
-	
 	public int getSid() {
 		return sid;
 	}
