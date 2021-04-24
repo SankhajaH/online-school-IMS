@@ -86,4 +86,14 @@ CREATE TABLE `online_school_ims`.`inquiry` (
     FOREIGN KEY (`SID`)
     REFERENCES `online_school_ims`.`student` (`SID`));
     
+CREATE TABLE `online_school_ims`.`admin` (
+  `AID` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NULL,
+  `age` INT NULL,
+  `address` VARCHAR(200) NULL,
+  `contact` VARCHAR(10) NULL,
+  `profilePic` VARCHAR(500) NULL,
+  PRIMARY KEY (`AID`));
+
+    
     
