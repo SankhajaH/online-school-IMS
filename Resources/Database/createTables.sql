@@ -95,5 +95,11 @@ CREATE TABLE `online_school_ims`.`admin` (
   `profilePic` VARCHAR(500) NULL,
   PRIMARY KEY (`AID`));
 
+CREATE TABLE `online_school_ims`.`auth` (
+  `userName` VARCHAR(45) NOT NULL,
+  `password` VARCHAR(200) NULL,
+  `userState` VARCHAR(30) NULL,
+  PRIMARY KEY (`userName`)); 
+
     
     

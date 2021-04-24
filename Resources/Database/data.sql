@@ -78,3 +78,13 @@ VALUES
 ('4', 'Nandasena', '69', 'Hambantota', '0715494563', 'image_link'),
 ('5', 'Dharmasena', '35', 'Colombo', '0713344563', 'image_link');
 
+INSERT INTO `online_school_ims`.`auth` 
+VALUES 
+( 'LayanJay', 'layan@123', 'student' ),
+( 'MenakaDas', 'menake987', 'student'),
+( 'NuwanS', '123Nuwan', 'teacher'),
+( 'Mendis', 'menda001', 'teacher'),
+( 'KapilaF', 'fonseka1971', 'admin');
+
+
+

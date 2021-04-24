@@ -15,6 +15,7 @@ public class timetables {
 		this.image = image;
 	}
 
+	
 	public int getTtid() {
 		return ttid;
 	}
