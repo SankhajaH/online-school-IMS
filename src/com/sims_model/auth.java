@@ -1,9 +1,9 @@
 package com.sims_model;
 
 public class auth {
-	String userName;
-	String password;
-	String userState;
+	private String userName;
+	private String password;
+	private String userState;
 
 public auth(String userName, String password, String userState) {
 
