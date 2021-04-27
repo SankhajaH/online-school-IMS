@@ -1,13 +1,13 @@
 package com.sims_model;
 
-public class marks {
+public class Marks {
 	private int sid;
 	private int sbid;
 	private String exam;
 	private int grade;
 	private double result;
 	
-	public marks(int sid, int sbid, String exam, int grade, double result) {
+	public Marks(int sid, int sbid, String exam, int grade, double result) {
 		this.sid = sid;
 		this.sbid = sbid;
 		this.exam = exam;

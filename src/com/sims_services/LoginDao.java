@@ -9,14 +9,15 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.sims_model.Auth;
 import com.sims_model.auth;
 import com.sims_util.DbConnection;
 
 public class LoginDao {
 	private static Connection conn;
 
-	public static List<auth> validate(String userName, String password) {
-		ArrayList<auth> user = new ArrayList<>();
+	public static List<Auth> validate(String userName, String password) {
+		ArrayList<Auth> user = new ArrayList<>();
 		try {
 			conn = DbConnection.getConnection();
 

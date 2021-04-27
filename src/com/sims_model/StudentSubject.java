@@ -1,10 +1,10 @@
 package com.sims_model;
 
-public class studentSubject {
+public class StudentSubject {
 	private int sid;
 	private int sbid;
 	
-	public studentSubject(int sid, int sbid) {
+	public StudentSubject(int sid, int sbid) {
 		this.sid = sid;
 		this.sbid = sbid;
 	}

@@ -1,10 +1,10 @@
 package com.sims_model;
 
-public class subject {
+public class Subject {
 	private int sbid;
 	private String name;
 	
-	public subject(int sbid, String name) {
+	public Subject(int sbid, String name) {
 		this.sbid = sbid;
 		this.name = name;
 	}

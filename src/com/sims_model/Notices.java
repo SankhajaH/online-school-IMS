@@ -1,6 +1,6 @@
 package com.sims_model;
 
-public class notices {
+public class Notices {
 	private String NID;
 	private String date;
 	private String title;
@@ -8,7 +8,7 @@ public class notices {
 	private Boolean student;
 	private Boolean academic;
 	
-	public notices(String nID, String date, String title, String description, Boolean student, Boolean academic) {
+	public Notices(String nID, String date, String title, String description, Boolean student, Boolean academic) {
 		NID = nID;
 		this.date = date;
 		this.title = title;

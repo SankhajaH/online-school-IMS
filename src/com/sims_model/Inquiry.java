@@ -1,13 +1,13 @@
 package com.sims_model;
 
-public class inquiry {
+public class Inquiry {
 	private String iid;
 	private int sid;
 	private String email;
 	private String inquiry;
 	private int responded;
 
-	public inquiry(String iid, int sid, String email, String inquiry, int responded) {
+	public Inquiry(String iid, int sid, String email, String inquiry, int responded) {
 		this.iid = iid;
 		this.sid = sid;
 		this.email = email;

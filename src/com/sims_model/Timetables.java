@@ -1,13 +1,13 @@
 package com.sims_model;
 
-public class timetables {
+public class Timetables {
 	private int ttid;
 	private int year;
 	private int grade;
 	private String className;
 	private String image;
 	
-	public timetables(int ttid, int year, int grade, String className, String image) {
+	public Timetables(int ttid, int year, int grade, String className, String image) {
 		this.ttid = ttid;
 		this.year = year;
 		this.grade = grade;
